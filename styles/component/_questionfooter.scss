@@ -1,0 +1,64 @@
+.c-question-footer {
+    position: fixed;
+    min-height: 50px;
+    background-color: #FFF;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 0px 0;
+    @extend.shadow2;
+    .copy {
+        background-color: #626970;
+        color: white;
+        padding: 10px 0px;
+        p {
+            margin-bottom: 0px;
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    .custom-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        min-height: 50px;
+        .pagination {
+            font-size: 30px;
+            font-weight: $bold;
+            display: flex;
+            padding-left: 0;
+            list-style: none;
+            border-radius: 4px;
+            @include mq('tablet-small') {
+                font-size: 19px;
+            }
+        }
+        .timer {
+            // width: 125px;
+            // height: 125px;
+            // border-radius: 50%;
+            // background-color: #FFF;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            line-height: 125px;
+            color: #ff3636;
+            font-weight: $blackbold;
+            font-size: 30px;
+            text-align: center;
+            @include mq('tablet-small') {
+                font-size: 19px;
+            }
+        }
+        .actions-btn {
+            button {
+                margin-right: 15px;
+                &:last-child {
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+}

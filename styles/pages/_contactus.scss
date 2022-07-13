@@ -1,0 +1,75 @@
+.p-contactus {
+    padding: 100px 0;
+    background-color: #f1f5f8;
+    @include mq('tablet-wide') {
+        padding: 40px 0;
+    }
+    .custom-container {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        @include mq('tablet-wide') {
+            flex-direction: column;
+        }
+        >div {
+            width: 45%;
+            @include mq('tablet-wide') {
+                width: 100%;
+            }
+            h2 {
+                margin-bottom: 8px;
+                font-weight: 500;
+                line-height: 1.2;
+                margin-top: 0;
+                font-size: 40px;
+            }
+        }
+        align-items: center;
+        p {
+            line-height: 28px;
+            font-size: 20px;
+            font-weight: $medium;
+            margin-top: 0;
+            margin-bottom: 16px;
+            @include mq('tablet-wide') {
+                line-height: 22px;
+                font-size: 16px;
+            }
+        }
+        .form-wraper {
+            @include mq('tablet-wide') {
+                margin-top: 20px;
+            }
+            ul {
+                li {
+                    margin-bottom: 15px;
+                    &:last-child {
+                        margin-bottom: 0px;
+                    }
+                    input,
+                    textarea {
+                        width: 100%;
+                        @include border-radius(5px);
+                        padding: 20px;
+                        border: 0px;
+                        background-color: #FFF;
+                        font-size: 16px;
+                        font-family: $bodyFont;
+                        box-sizing: border-box;
+                    }
+                    button {
+                        @extend .btn;
+                        overflow: visible;
+                        font-family: inherit;
+                        &:not(:disabled),
+                        [type=button]:not(:disabled),
+                        [type=reset]:not(:disabled),
+                        [type=submit]:not(:disabled) {
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

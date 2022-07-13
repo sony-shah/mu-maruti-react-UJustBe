@@ -1,0 +1,50 @@
+.wrapper{
+    width: 100%;
+    float: left;
+
+    .custom-container {
+        width: 100%;
+        padding: 0 15px;
+        max-width: 1200px;
+        margin: 0 auto;   
+
+        .termconditon-body{
+            padding-top: 150px;
+        
+
+            h2{
+                font-size: 36px;
+                // margin-bottom: 8px;
+                font-weight: 600;
+                line-height: 1.2;
+                margin: 50px 0 18px 0;
+
+            }
+            h4{
+                font-size: 24px;
+                margin-bottom:8px;
+                font-weight: 600;
+                line-height: 1.2;
+            }
+
+            h5{
+                font-size: 20px;
+                margin-bottom: 10px;
+                font-weight: 600;
+                line-height: 1.5;
+            }
+            p{
+                margin-top: 0;
+                margin-bottom: 18px;
+                line-height: 22px;
+
+                &:last-child{
+                   margin-bottom: 36px;
+                   
+                }
+            }
+         }
+
+
+    }   
+}

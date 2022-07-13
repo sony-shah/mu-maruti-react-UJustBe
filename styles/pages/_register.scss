@@ -1,0 +1,201 @@
+.p-register {
+    padding: 100px 0;
+    @include mq('tablet-small') {
+        padding: 30px 0;
+    }
+    .custom-container {
+        display: flex;
+        flex-direction: column;
+        .con-row {
+            display: flex;
+            margin-bottom: 50px;
+            padding-bottom: 50px;
+            border-bottom: 1px solid #CCC;
+            &:last-child {
+                margin-bottom: 0px;
+            }
+            @include mq('tablet-small') {
+                flex-direction: column;
+            }
+            .section-heading {
+                width: 35%;
+                @include mq('tablet-small') {
+                    width: 100%;
+                }
+                h3 {
+                    font-size: 30px;
+                    color: #444444;
+                    font-weight: $medium;
+                    @include mq('desktop-wide') {
+                        font-size: 22px;
+                    }
+                    @include mq('tablet-small') {
+                        font-size: 18px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+            .form-wrapper {
+                width: 60%;
+                @include mq('tablet-small') {
+                    width: 100%;
+                }
+                ul {
+                    margin-top: 0;
+                    margin-bottom: 16px;
+                    li {
+                        margin-bottom: 25px;
+                        display: block;
+                        &:last-child {
+                            margin-bottom: 0px;
+                        }
+                        label {
+                            color: #888888;
+                            font-size: 20px;
+                            margin-bottom: 10px;
+                            display: inline-block;
+                            font-weight: $medium;
+                            position: relative;
+
+                           
+
+                            @include mq('desktop-wide') {
+                                font-size: 16px;
+                            }
+                            @include mq('tablet-small') {
+                                font-size: 14px;
+                            }
+                        }
+                        input,
+                        textarea {
+                            width: 100%;
+                            @include border-radius(5px);
+                            padding: 20px;
+                            border: 0px;
+                            background-color: #e5e9ed;
+                            font-size: 16px;
+                            font-family: $bodyFont;
+                            box-sizing: border-box;
+                        }
+                        input[type=checkbox] {
+                            width: auto;
+                            &+label {
+                                display: inline-block;
+                                width: auto;
+                                margin-left: 10px;
+                            }
+                        }
+                        button {
+                            @extend .btn;
+                        }
+                        &:nth-child(5){
+                            .custom-control{
+                                position: relative;
+                                z-index: 1;
+                                display: block;
+                                min-height: 24px;
+                                padding-left: 24px;
+                                // -webkit-print-color-adjust: exact;
+                                // color-adjust: exact;
+
+                                input{
+                                    position: absolute;
+                                    left: 0;
+                                    z-index: -1;
+                                    width: 16px;
+                                    height: 16px;
+                                    // opacity: 0;
+                                    margin: 0;
+                                
+                                }
+                                // label{
+
+                                //     .custom-control-radio{
+                                   
+                                //         width: 16px;
+                                //         height: 16px;
+                                //         border-radius: 50%;
+                                //         border:2px solid #444444;
+                                //         background-color: #fff;
+
+                                //         &:checked{
+                                //             border:2px solid #854444;
+                                //         }
+
+                                        
+                                //     }
+                                    
+                                   
+                            
+                                       
+                                    
+                                           
+                                        
+
+                                    
+                                // }
+                            }
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+}
+
+.form-wrapper-reg {
+    width: 60%;
+    @include mq('tablet-small') {
+        width: 100%;
+    }
+    ul {
+        li {
+            margin-bottom: 25px;
+            display: block;
+            &:last-child {
+                margin-bottom: 0px;
+            }
+            label {
+                color: #888888;
+                font-size: 20px;
+                margin-bottom: 10px;
+                display: inline-block;
+                font-weight: $medium;
+                @include mq('desktop-wide') {
+                    font-size: 16px;
+                }
+                @include mq('tablet-small') {
+                    font-size: 14px;
+                }
+            }
+            input,
+            textarea {
+                width: 100%;
+                @include border-radius(5px);
+                padding: 20px;
+                border: 0px;
+                background-color: #e5e9ed;
+                font-size: 16px;
+                font-family: $bodyFont;
+                box-sizing: border-box;
+            }
+            textarea {
+                @include mq('desktop-wide') {
+                    height: 100px;
+                }
+            }
+            input[type=checkbox] {
+                width: auto;
+                &+label {
+                    display: inline-block;
+                    width: auto;
+                    margin-left: 10px;
+                }
+            }
+            button {
+                @extend .btn;
+            }
+        }
+    }
+}

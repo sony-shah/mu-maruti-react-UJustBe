@@ -1,0 +1,158 @@
+.p-demo-question {
+    width: 100%;
+    height: calc(100vh - 159px);
+    background-color: $question-bg;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 40px;
+    align-content: space-between;
+    padding-bottom: 125px;
+    overflow-y: scroll;
+    .c-qestion-header {
+        h2 {
+            margin-top: 10px;
+        }
+        h3 {
+            font-size: 30px;
+            position: absolute;
+            margin-left: 40px;
+            margin-top: 20px;
+            @include mq('tablet-small') {
+                font-size: 18px;
+            }
+        }
+    }
+    .rightAnswer{
+        color: #198754;
+        text-align: center;
+        font-size: 21px;
+     
+
+    }
+    .wrongAnswer{
+        color: #dc3545;
+        text-align: center;
+        font-size: 21px;
+
+    }
+    .content-row {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        @include mq('tablet-small') {
+            flex-direction: column;
+        }
+        .content-img {
+            width: 60%;
+            img {
+                width: 100%;
+            }
+            @include mq('tablet-small') {
+                margin-top: 10px;
+                width: 100%;
+            }
+        }
+        .question-con {
+            width: 35%;
+            @include mq('tablet-small') {
+                width: 90%;
+                margin-top: 15px;
+            }
+            p {
+                font-size: 23 px;
+                margin-bottom: 10px;
+                & :last-child {
+                    margin-bottom: 0;
+                }
+                strong {
+                    font-weight: $bold;
+                    @include mq('tablet-small') {
+                        font-size: 18px;
+                    }
+                }
+            }
+            &.instruction {
+                strong {
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+                .instruction-p{
+                    margin-top: 10px;
+                }
+                p {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+            }
+        }
+        .content-list {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p {
+                font-size: 2em;
+                text-align: center;
+                margin-top: 25px;
+            }
+        }
+    }
+    .content-column {
+        width: 100%;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        .content-list {
+            width: 100%;
+            ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 25px;
+                p {
+                    font-size: 2em;
+                    text-align: center;
+                    margin-top: 25px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        .content-para {
+            width: 100%;
+            border: 1px solid blue;
+            padding: 10px;
+            margin-top: 60px;
+            p {
+                font-size: 20px;
+                text-align: center;
+                padding-top: 10px;
+            }
+        }
+    }
+}
+.c-question-footer{
+    
+    .custom-container{
+        justify-content: space-between;
+
+        .btn{
+            display: inline-block;
+            font-weight: 400;
+            color: #212529;
+            text-align: center;
+            vertical-align: middle;
+            background-color: transparent;
+            border: 1px solid transparent;
+            padding: 6px 12px;
+            font-size: 16px;
+            line-height: 1.5;
+            border-radius:4px;
+            transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        
+        }
+       
+    }
+}

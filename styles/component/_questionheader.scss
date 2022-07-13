@@ -1,0 +1,32 @@
+.c-qestion-header {
+    text-align: center;
+    h2 {
+        font-size: 36px;
+        color: #444444;
+        margin-bottom: 10px;
+        font-weight: $blackbold;
+        @include mq('desktop-large') {
+            font-size: 32px;
+        }
+        @include mq('desktop-wide') {
+            font-size: 28px;
+        }
+        @include mq('tablet-small') {
+            font-size: 18px;
+        }
+    }
+    p {
+        font-size: 28px;
+        color: #444444;
+        margin-bottom: 10px;
+        @include mq('desktop-large') {
+            font-size: 24px;
+        }
+        @include mq('desktop-wide') {
+            font-size: 20px;
+        }
+        @include mq('tablet-small') {
+            font-size: 17px;
+        }
+    }
+}

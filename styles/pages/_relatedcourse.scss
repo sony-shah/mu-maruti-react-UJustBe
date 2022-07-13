@@ -1,0 +1,80 @@
+//related course pages
+.p-relatedcourse {
+    padding: 100px 0;
+    @include mq('tablet-wide') {
+        padding: 40px 0;
+    }
+    .custom-container {
+        display: flex;
+        justify-content: space-between;
+        @include mq('tablet-wide') {
+            flex-direction: column;
+        }
+        div {
+            position: relative;
+        }
+        .images2 {
+            .con-text {
+                h4 {
+                    width: 100%;
+                }
+            }
+        }
+        .con-text {
+            position: absolute;
+            padding: 20px;
+            box-sizing: border-box;
+            width: 100%;
+            left: 0px;
+            bottom: 0px;
+            span {
+                display: inline-block;
+                padding: 10px 20px;
+                text-transform: uppercase;
+                font-weight: $medium;
+                background-color: #ff3636;
+                @include border-radius(3px);
+                font-size: 16px;
+                color: #FFF;
+                @include mq('tablet-wide') {
+                    font-size: 14px;
+                    padding: 7px 20px;
+                }
+            }
+            h4 {
+                font-size: 32px;
+                font-weight: $blackbold;
+                line-height: 40px;
+                margin: 10px 0 8px;
+                width: 70%;
+                // font-family: $bodyfamily;
+                color: #FFF;
+                @include mq('tablet-wide') {
+                    font-size: 22px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+    .images1 {
+        width: 58%;
+        @include mq('tablet-wide') {
+            width: 100%;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .images2 {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @include mq('tablet-wide') {
+            width: 100%;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}

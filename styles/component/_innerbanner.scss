@@ -1,0 +1,19 @@
+.c-innerbanner {
+    background-color: #15418f;
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px 0px;
+    @include mq('tablet-small') {
+        height: 25vh;
+    }
+    >div {
+        h1 {
+            color: #FFF;
+            @extend .h1;
+            @include mq('tablet-small') {
+                font-size: 18px;
+            }
+        }
+    }
+}
