@@ -32,3 +32,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+Here are direct link to see this page layout:-
+https://muportal.vercel.app/termconditions
+https://muportal.vercel.app/dashboard/dashboard
+https://muportal.vercel.app/navbar/imagereport
+https://muportal.vercel.app/navbar/myreport
+https://muportal.vercel.app/navbar/profile
+https://muportal.vercel.app/questions/questionone
+https://muportal.vercel.app/questions/questiontwo
+https://muportal.vercel.app/questionsdemo/classificationdemo
+https://muportal.vercel.app/questionsdemo/finalmatricsdemo
+https://muportal.vercel.app/questionsdemo/finalseriesdemo
+https://muportal.vercel.app/questionsdemo/finaltopologydemo
+https://muportal.vercel.app/registration
