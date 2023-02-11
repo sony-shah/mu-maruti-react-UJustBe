@@ -35,15 +35,15 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 Here are direct link to see this page layout:-
-https://muportal.vercel.app/termconditions
-https://muportal.vercel.app/dashboard/dashboard
-https://muportal.vercel.app/navbar/imagereport
-https://muportal.vercel.app/navbar/myreport
-https://muportal.vercel.app/navbar/profile
-https://muportal.vercel.app/questions/questionone
-https://muportal.vercel.app/questions/questiontwo
-https://muportal.vercel.app/questionsdemo/classificationdemo
-https://muportal.vercel.app/questionsdemo/finalmatricsdemo
-https://muportal.vercel.app/questionsdemo/finalseriesdemo
-https://muportal.vercel.app/questionsdemo/finaltopologydemo
-https://muportal.vercel.app/registration
+- https://muportal.vercel.app/termconditions
+- https://muportal.vercel.app/dashboard/dashboard
+- https://muportal.vercel.app/navbar/imagereport
+- https://muportal.vercel.app/navbar/myreport
+- https://muportal.vercel.app/navbar/profile
+- https://muportal.vercel.app/questions/questionone
+- https://muportal.vercel.app/questions/questiontwo
+- https://muportal.vercel.app/questionsdemo/classificationdemo
+- https://muportal.vercel.app/questionsdemo/finalmatricsdemo
+- https://muportal.vercel.app/questionsdemo/finalseriesdemo
+- https://muportal.vercel.app/questionsdemo/finaltopologydemo
+- https://muportal.vercel.app/registration
